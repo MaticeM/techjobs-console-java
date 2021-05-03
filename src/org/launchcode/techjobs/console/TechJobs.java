@@ -120,10 +120,9 @@ public class TechJobs {
             }
 
             System.out.println("*****" + "\n");
-
-            if (someJobs.isEmpty()) {
-             System.out.println("No results found.");
          }
+        if (someJobs.isEmpty()) {
+            System.out.println("No results found.");
         }
 
 //        for (int i = 0; i < someJobs.size(); i++) {
